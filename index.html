@@ -1,0 +1,192 @@
+<html lang="en-us" ng-app="myApp">
+  <header>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>   
+<script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
+<script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js"></script>
+  <script src="https://code.angularjs.org/1.3.0-rc.1/angular-route.min.js"></script>
+  
+  
+  
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>  
+<script src=" app.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Space Mono" />
+   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Shadows Into Light" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </header>
+
+<head>
+ 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="UTF-8">
+
+  
+
+ 
+
+  <!-- load angular via CDN 
+        <script src="https://code.angularjs.org/1.3.0-rc.1/angular.min.js"></script>-->
+  <script src="https://code.angularjs.org/1.3.0-rc.1/angular-route.min.js"></script>
+  <!--   <script src="app2.js"></script> -->
+</head>
+<body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+    <a class="navbar-brand">
+      Ashok Naik </a>
+    <button class="navbar-toggle"  data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar" > </span>
+            <span class="icon-bar" > </span>
+            <span class="icon-bar" > </span>    
+      </button>
+      <div class="collapse  navbar-collapse nav-collapse" >
+        <ul class="nav navbar-nav navbar-right">
+					<li><a href="#/"> Home</a></li>
+       <li><a href="#/about">About Me</a></li>
+     <li><a href="#/second">Portfolio</a></li>
+        <li><a href="https://www.youtube.com/channel/UCxYLIW0dVzgla4CRHV9cTeQ" target="blank">Nerd Vs Geek</a></li>
+        <li><a href="#/contact">Contact</a></li> 
+				</ul>
+      </div>
+    </nav>
+<script  type="text/ng-template" id="main.html">      
+ <div class="pageOne"  ng-controller="mainController">
+      <h2 class="text-center" id="f1" > Ashok Naik </h2 >
+  
+    <div class="block text-center">
+       
+      <div class="btnList text-center">
+      
+      <a class="btn btn-default" href="https://twitter.com/A_shock009" target="_blank"> <i class="fa fa-twitter" id="twittericon" aria-hidden="true"></i>Twitter</a>
+      <a class="btn btn-default" href="https://github.com/AshokNaik009" target="_blank"><i class="fa fa-github" id="githubicon"  aria-hidden="true"></i>Github</a>
+      <a class="btn btn-default" href="https://www.linkedin.com/in/ashok-naik-82513b111/" tagert="_blank"><i class="fa fa-linkedin"  id="linkedinicon" aria-hidden="true"></i>LinkedIn</a>
+      <a href="https://www.youtube.com/channel/UCxYLIW0dVzgla4CRHV9cTeQ" class="btn btn-default" target="_blank"><i class="fa fa-youtube"  id="youtubeicon" aria-hidden="true"></i>Youtube</a>
+      <a class="btn btn-default" href="https://www.facebook.com/ashok.naik.5832" target="_blank"><i class="fa fa-facebook"  id="facebookicon" aria-hidden="true"></i> Facebook</a>
+    </div>
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  
+ </script>
+<script type="text/ng-template" id="test2.html">
+
+  <div        class="pageTwo" ng-controller="aboutController">
+    <div class="container ">
+     <div class="row">
+       <div class="col-sm-2 col-lg-6">
+       <span color:"#eee">    <h1> About Me </h1>
+    <h3   style="background:black;opacity:0.8;" >      I'm currently Learning AnjularJS . I obsess over the minor details in CSS/HTML/PHP and am passionate in getting computers to more effectively work on your side by freeing you of the burdens of carrying out repetitive tasks through Interactive processes.</h3>
+         </div> </span>
+           <div class="col-sm-2">
+             </div>
+       <div class="col-sm-2 col-lg-4">
+         <img class="me"  src="https://s22.postimg.cc/6g46l2tk1/ashok.jpg">
+           
+         </div>
+       
+       
+       
+    
+    
+
+     </div><!--End of Row-->
+    </div><!--End of Container -->
+  </div>  <!--End of Controller -->
+  
+  
+  
+  
+  
+
+</script>
+    
+    
+     <script type="text/ng-template" id="second.html">
+  
+       <div class="pageThree"  ng-controller="aboutController">
+      
+         <div class="container" >
+            <div class="row">
+         
+              <div class="col-md-4">
+         <iframe height='265' scrolling='no' title='Technical Documentation Page' src='//codepen.io/a_shokn/embed/preview/oybXZM/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/a_shokn/pen/oybXZM/'>Technical Documentation Page</a> by Ashok Naik (<a href='https://codepen.io/a_shokn'>@a_shokn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+         </div>
+        <div class="col-md-4">
+         <iframe height='265' scrolling='no' title='QuoteGen' src='//codepen.io/a_shokn/embed/preview/opENLg/?height=265&theme-id=dark&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/a_shokn/pen/opENLg/'>QuoteGen</a> by Ashok Naik (<a href='https://codepen.io/a_shokn'>@a_shokn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+      </div>   
+        <div class="col-md-4">
+       <iframe height='265' scrolling='no' title='WeatherApp' src='//codepen.io/a_shokn/embed/preview/rpJEJP/?height=265&theme-id=dark&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/a_shokn/pen/rpJEJP/'>WeatherApp</a> by Ashok Naik (<a href='https://codepen.io/a_shokn'>@a_shokn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+        </div> 
+       
+        <div class="col-md-4">
+        <iframe height='265' scrolling='no' title='Survey Form' src='//codepen.io/a_shokn/embed/preview/Yvyejo/?height=265&theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/a_shokn/pen/Yvyejo/'>Survey Form</a> by Ashok Naik (<a href='https://codepen.io/a_shokn'>@a_shokn</a>) on <a href='https://codepen.io'>CodePen</a>.
+
+</iframe>
+         </div>
+        <div class="col-md-4">
+         <iframe height='265' scrolling='no' title='Product Landing Page' src='//codepen.io/a_shokn/embed/preview/bKVXdj/?height=265&theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/a_shokn/pen/bKVXdj/'>Product Landing Page</a> by Ashok Naik (<a href='https://codepen.io/a_shokn'>@a_shokn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+      </div>   
+        <div class="col-md-4">
+      <iframe height='265' scrolling='no' title='zpwgvm' src='//codepen.io/a_shokn/embed/preview/zpwgvm/?height=265&theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/a_shokn/pen/zpwgvm/'>zpwgvm</a> by Ashok Naik (<a href='https://codepen.io/a_shokn'>@a_shokn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+        </div> 
+              </div><!--End of Container Div-->
+               </div><!--End of row -->
+       </div> <!--End of Controller Div-->
+      </script>
+        </div>
+   <script type="text/ng-template" id="contact.html">
+     <div  class="pageFour" ng-controller="contactController">
+     <div class="container">
+       <div class="col-md-8">
+       <h1 style="color:white"> Contact Me  </h1>
+       <form class="form-inline">
+  <div class="form-group">
+    <label style="color:white" for="exampleInputName2">Name</label>
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="Ashok  Naik">
+  </div>
+  <div class="form-group">
+    <label style="color:white"for="exampleInputEmail2">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="naikasho08@gmail.com">
+  </div>
+  <button type="submit" class="btn btn-success">Send</button>
+</form>
+     
+       </div>
+    
+     <div  class="col-md-4  pull-left "   >
+       <ul class="list-inline banner-social-buttons" style="font-size:2.7em;" >
+   
+      <li><a href="https://twitter.com/A_shock009" class="btn btn-default " target="_blank"><i  class="fa fa-twitter" id="twittericon"  aria-hidden="true"></i>Twitter</a> </li>  
+     
+     <li><a href="https://github.com/AshokNaik009" class="btn btn-default " target="_blank"><i class="fa fa- github" id="githubicon"  aria-hidden="true"></i>Github</a> </li>  
+
+   <li><a href="https://www.linkedin.com/in/ashok-naik-82513b111"class="btn btn-default " target="_blank"><i class="fa fa-linkedin"  id="linkedinicon" aria-hidden="true"></i>LinkedIn</a> </li>  
+     
+  <li><a href="https://www.youtube.com/channel/UCxYLIW0dVzgla4CRHV9cTeQ" class="btn btn-default " target="_blank"><i class="fa fa-youtube"  id="youtubeicon" aria-hidden="true"></i>Youtube</a> </li>
+  <li><a class="btn btn-default paddingBTN" href="https://www.facebook.com/ashok.naik.5832" target="_blank"><i class="fa fa-facebook"  id="facebookicon" aria-hidden="true"></i> Facebook</a> </li>
+     </ul>
+        
+        
+        
+      </div>
+     
+     
+     
+     
+     
+     </div><!--End of the Container -->
+     </div><!--End of the Controller>
+     
+     
+  </script>
+<div ng-view></div>        
+</body>
+</html>

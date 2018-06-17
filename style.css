@@ -1,0 +1,147 @@
+
+.pageOne
+{
+background: url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-0.3.5&s=32cb7b31e8ab26696fbca1ce58bbda62&auto=format&fit=crop&w=1393&q=180") no-repeat;
+
+	background-size: cover;
+  height:800px;
+  margin-top:-19px;
+} 
+
+ body {
+        font-family: 'Space Mono', serif;
+        
+      }
+#f1{
+  font-family: 'Shadows Into Light', serif;
+font-size:108px;
+  color:white;
+}
+
+
+.block
+{
+ 
+  color:white;
+  font-family: 'Shadows Into Light', serif;
+  font-size:58px;
+  padding:10px;
+  width:50%;
+  
+  margin-left:auto;
+  margin-right:auto;
+  border-raidus:5%;
+}
+
+.btn-default{
+  font-size:0.7em;
+}
+.me
+{
+ height:388px;
+  width:388px;
+     border-radius: 50%;
+}
+
+
+.pageTwo
+{
+background: url("https://news.rambler.ru/img/2018/02/26190209.906831.1930.jpeg") no-repeat;
+
+	background-size: cover;
+  height:800px;
+  margin-top:-19px;
+
+  color:white;
+} 
+
+
+
+.pageThree
+{
+background: url("https://cdn.wallaps.com/wallpapers/100000/90698.png") no-repeat;
+
+	background-size: cover;
+ 
+  margin-top:-19px;
+} 
+
+
+.pageFour
+{
+background: url("https://static1.squarespace.com/static/5797720c725e2587d1bab3ac/t/57fff832197aeafac45b5642/1476393033377/bg.png?format=1500w") no-repeat;
+
+	background-size: cover;
+  height:800px;
+  margin-top:-19px;
+} 
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+ .btn-default{
+  font-size:0.5em;
+}
+  
+  .me
+{
+ height:288px;
+  width:288px;
+     border-radius: 50%;
+}
+   
+
+}
+
+
+
+
+
+
+
+
